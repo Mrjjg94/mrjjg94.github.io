@@ -2,10 +2,10 @@ import Head from 'next/head'
 import {BsFillMoonFill,Bsmoon} from 'react-icons/bs';
 import { AiFillLinkedin, AiFillGithub, AiFillPlayCircle} from 'react-icons/ai';
 import Image from "next/image";
-import deved from "./public/dev-josh-wave.png";
-import score from "./public/dev-score-wave.png";
-import health from "./public/dev-health-wave.png";
-import chat from "./public/dev-chat-wave.png";
+import deved from "../public/dev-josh-wave.png";
+import score from "../public/dev-score-wave.png";
+import health from "../public/dev-health-wave.png";
+import chat from "../public/dev-chat-wave.png";
 import {useState} from "react";
 
 export default function Home() {
