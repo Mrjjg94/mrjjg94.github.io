@@ -2,7 +2,7 @@ import Head from 'next/head'
 import {BsFillMoonFill,Bsmoon} from 'react-icons/bs';
 import { AiFillLinkedin, AiFillGithub, AiFillPlayCircle} from 'react-icons/ai';
 import Image from "next/image";
-import deved from "../public/dev-josh-wave.png";
+import deved from "../public/dev-josh-wave.png" ;
 import score from "../public/dev-score-wave.png";
 import health from "../public/dev-health-wave.png";
 import chat from "../public/dev-chat-wave.png";
@@ -41,7 +41,7 @@ export default function Home() {
         
         </div>
         <div className=' relative mx-auto bg-gradient-to-b from-cyan-500 rounded-full w-80 h-80 mt-20 overflow-hidden'>
-          <Image src={deved} layout='fill' objectFit='cover'/>
+          <Image src={deved} alt="memoji Logo" layout='fill' objectFit='cover'/>
         </div> 
    
         <div className=' text-center py-20 dark:text-white'>
@@ -51,7 +51,7 @@ export default function Home() {
         </div>
         <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:text-white'>
           <a className='text-5xl text-gray-600' href='https://Thyroid-App.mrjjg94.repl.co'> <AiFillPlayCircle/></a>
-            <Image src={health} width={300} height={300}/> 
+            <Image src={health} alt="health logo" width={300} height={300}/> 
             <h3 className='text-lg font-medium pt-6 pb-2 text-cyan-500'> Thyroid App</h3>
             <p className='py-2'>
             Built a Thyroid web app using the jQuery Mobile Framework that allows patients to track their cancer type, state, and TSH range.
@@ -68,7 +68,7 @@ export default function Home() {
         <div>
           <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:text-white'>
           <a className='text-5xl text-gray-600' href='https://chapter-07-lab-Mrjjg94.mrjjg94.repl.co'> <AiFillPlayCircle/></a>
-          <Image src={score} width={200} height={200}/>
+          <Image src={score} alt="Credit score logo" width={200} height={200}/>
             <h3 className='text-lg font-medium pt-6 pb-2 text-cyan-500'> Credit Score Tracker</h3>
             <p className='py-2 '>
             Built a Credit Score Tracker app with the jQuery Mobile Framework. I managed to track credit scores over time wille pushing out advice after input and graphing your score using RGraph.
@@ -82,7 +82,7 @@ export default function Home() {
 
           </div>
           <div className='text-center shadow-lg p-10 rounded-xl my-10 dark:text-white'>
-            <Image src={chat} width={300} height={300}/>
+            <Image src={chat} alt="Chatbot logo" width={300} height={300}/>
             <h3 className='text-lg font-medium pt-6 pb-2 text-cyan-500'> Math Chatbot</h3>
             <p className='py-2'>
             Built a rule-based math chatbot in React for gathering data sets to chart linear regression.
